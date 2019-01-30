@@ -2,10 +2,12 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
     "prettier": "^1.16.2"
   },
   "scripts": {
-    "test": "mocha *.test.js"
+    "test": "mocha *.test.js",
+    "coverage": "nyc -r html -r text mocha *.test.js"
   },
   "license": "MIT"
 }
