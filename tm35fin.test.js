@@ -1,3 +1,4 @@
+/* eslint-env mocha, chai */
 const { expect } = require("chai");
 const { xyToTile, getTileLevel, tileToXy } = require("./tm35fin");
 

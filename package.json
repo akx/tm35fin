@@ -1,6 +1,9 @@
 {
   "devDependencies": {
     "chai": "^4.2.0",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "mocha": "^5.2.0",
     "nyc": "^13.1.0",
     "prettier": "^1.16.2"
@@ -9,5 +12,8 @@
     "test": "mocha *.test.js",
     "coverage": "nyc -r html -r text mocha *.test.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "prettier": {
+    "trailingComma": "all"
+  }
 }
