@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "prettier": "^1.16.2"
+  },
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
+  "license": "MIT"
+}
